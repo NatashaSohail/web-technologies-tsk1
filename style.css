@@ -42,7 +42,7 @@ header {
     width: 20%;
 }
 .logo .img {
-    background-image: url(logo.png);
+    background-image: url("https://picsum.photos/400/300?1");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -74,6 +74,22 @@ header {
     border-bottom: 0.1rem solid rgb(137, 7, 55);
     color: rgb(5, 5, 51);
     font-weight: bolder;
+}
+.login {
+    background: rgb(0, 25, 87);
+    color: rgb(194, 210, 249);
+    padding: 14px 32px;
+    border-radius: 11px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sign-in{
+    background: rgb(0, 25, 87);
+    color: rgb(194, 210, 249);
+    padding: 14px 32px;
+    border-radius: 11px;
+    text-decoration: none;
+    font-weight: bold;
 }
 /* styling for anchor tags */
 a{
