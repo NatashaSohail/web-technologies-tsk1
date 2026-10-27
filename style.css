@@ -167,3 +167,47 @@ a{
         transition:transform .4s;
         margin-left: 20px;
     }
+    /* Time Table */
+.timetable-sec {
+    padding: 60px 8%;
+    background-color: white;
+    text-align: center;
+}
+
+.timetable {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.timetable th {
+    background-color: #000052;
+    color: #f8f9fb;
+    padding: 16px;
+}
+
+.timetable td {
+    padding: 16px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.timetable tbody tr:nth-child(even) {
+    background-color: #edeeff;
+}
+
+.timetable tbody tr:hover {
+    background-color: #c8cdff;
+}
+
+/* footer */
+footer {
+  background: #010c50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
