@@ -109,22 +109,16 @@ a{
     height: 100%;
     border-radius: 10% 0 0 10%;
 }
-/* #data{
-   background-color: rgb(120, 206, 217);
-   height: 250px;
-   margin-top: 1px;
-   
-   display: flex;
-} 
-.data-content{
-    background-color: rgb(4, 43, 105);
-    width: 20%;
-    height: 60%;
-    text-align: center;
-    padding: 1rem; 
-    margin: 30px 40px 30px 40px;
-    border-radius: 2%;
-} */
+.login {
+    background: #ffca2c;
+    color: #17213b;
+    padding: 14px 32px;
+    border-radius: 11px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* DATA Section  */
   .data{
       display: grid;
       gap: 1rem;
